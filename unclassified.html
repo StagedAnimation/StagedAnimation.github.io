@@ -61,15 +61,19 @@ background-color:red;
 }
 #table
 {
-  height:60%;
   width:95%;
   margin-right:auto;
   margin-left:auto;
   display: block;
   margin:auto;
-  background-color: #ECECEA;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+   table {
+   margin: 0 auto; /* or margin: 0 auto 0 auto */
+  }
 </style>
 </head>
 <body>
@@ -78,7 +82,7 @@ Unclassified Examples
 </div>
 
 <div id="table">
-<table>
+<table style="background-color:#ECECEA">
     <tr>
       <td><center><img src="gallery\3D_Curve_1_2.gif" alt="ML_Scatterplot" style="width:400px;height:300px;"><figcaption><a href="https://tinyurl.com/3DYieldCurve">Yield Curve</a></figcaption></center> </td>
       <td><center><img src="gallery\3D_Curve_2_1.gif" alt="ML_Histogram" style="width:400px;height:300px;"><figcaption><a href="https://tinyurl.com/3DYieldCurve">Yield Curve</a></figcaption></center> </td>
