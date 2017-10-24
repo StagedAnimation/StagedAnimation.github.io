@@ -1,3 +1,1 @@
-- It would be better to start the animation only on hover
-- It could be better no to have the black background in the animations (it gives impression of cinema effect)
 - Titles are confusing: are they for bottom or top animations
